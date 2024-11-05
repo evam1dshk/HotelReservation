@@ -16,12 +16,14 @@
 
 .shape:first-child {
     background: linear-gradient(#36251b, #7c4f30);
+    ;
     left: -80px;
     top: -80px;
 }
 
 .shape:last-child {
     background: linear-gradient(to right, #daa022, #f09819);
+    ;
     right: -30px;
     bottom: -80px;
 }
@@ -93,51 +95,4 @@ button {
 
 button:hover {
     box-shadow: 1px 1px 11px 8px #e7a83a;
-}
-
-.site-content {
-    height: 70%;
-}
-
-.buttons {
-    display: flex;
-}
-
-.buttons button {
-    margin: 20px;
-}
-
-.offers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 77%;
-}
-
-.offer-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 9px;
-    cursor: pointer;
-    background: transparent;
-    box-shadow: 1px 1px 5px 3px white;
-}
-
-.offer-card:nth-child(3) img {
-    margin-right: 38px;
-}
-
-.offer-card:hover {
-    box-shadow: 1px 1px 18px 3px white;
-}
-
-.offer-card img {
-    max-width: 90px;
-    margin-right: 20px;
-}
-
-.selected-room {
-    background-color: #cfcbca !important;
 }
